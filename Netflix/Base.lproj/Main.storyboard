@@ -17,9 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="어벤져스엔드게임" translatesAutoresizingMaskIntoConstraints="NO" id="TKG-ES-GKo">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="783"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="어벤져스엔드게임" translatesAutoresizingMaskIntoConstraints="NO" id="TKG-ES-GKo">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="P0p-Tk-wds">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -137,14 +136,18 @@
                             <constraint firstItem="ysy-Fo-Rmo" firstAttribute="top" secondItem="cEd-FM-gBU" secondAttribute="bottom" constant="10" id="QZ2-Hu-elX"/>
                             <constraint firstItem="cEd-FM-gBU" firstAttribute="top" secondItem="TBG-a1-xoW" secondAttribute="bottom" constant="450" id="SU0-nf-ZBo"/>
                             <constraint firstItem="JBp-Kj-Ler" firstAttribute="top" secondItem="TBG-a1-xoW" secondAttribute="bottom" constant="450" id="SUk-M3-xRo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TKG-ES-GKo" secondAttribute="bottom" constant="20" id="VsD-hX-GlU"/>
                             <constraint firstItem="1Nz-RM-Xvh" firstAttribute="leading" secondItem="pIM-0H-wCc" secondAttribute="trailing" constant="20" id="XLh-OM-xwn"/>
+                            <constraint firstItem="TKG-ES-GKo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fpf-bP-MVv"/>
                             <constraint firstItem="pIM-0H-wCc" firstAttribute="centerY" secondItem="1Nz-RM-Xvh" secondAttribute="centerY" id="g06-bJ-cwv"/>
                             <constraint firstItem="ysy-Fo-Rmo" firstAttribute="centerX" secondItem="cEd-FM-gBU" secondAttribute="centerX" id="gcY-wq-mCJ"/>
                             <constraint firstItem="eew-Qo-fXe" firstAttribute="top" secondItem="TBG-a1-xoW" secondAttribute="bottom" constant="450" id="jwM-WD-ugU"/>
                             <constraint firstItem="1Nz-RM-Xvh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kcm-AO-afm"/>
+                            <constraint firstItem="TKG-ES-GKo" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="mdr-V3-JjF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pIM-0H-wCc" secondAttribute="bottom" constant="35" id="sJA-IA-pst"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eew-Qo-fXe" secondAttribute="trailing" constant="44" id="ta2-7a-Xbk"/>
                             <constraint firstItem="roU-RN-2uB" firstAttribute="leading" secondItem="1Nz-RM-Xvh" secondAttribute="trailing" constant="22" id="wJ7-lF-Cr5"/>
+                            <constraint firstItem="TKG-ES-GKo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xFZ-nv-VOk"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="W8A-3Y-qRg"/>
